@@ -6,6 +6,8 @@ These scripts and folders of data were used in the **Intro to Text Analysis work
 
 In this workshop, we looked at a brief history of humanities text analysis and covered the basics of using text as data. Then we explored [Voyant Tools](http://voyant-tools.org), [Google Books n-gram viewer](https://books.google.com/ngrams), and sentiment analysis. 
 
+## Using these scripts 
+
 To use the Python scripts in this folder, you'll need to install: 
 - Python 2.7 (2.7.3 is my personal fave) 
 - IDLE (should come with Python) 
@@ -19,6 +21,8 @@ nltk.download()
 ```
 A window should pop up. It might appear *behind* your current window. In the window, select the line beginning with **book** to download everything used in the book. It might take a while. 
 
+___
+
 **Not included in this repo**: ```pos_list.txt``` and ```neg_list.txt```, the lists of positive and negative words used in this repository. Were you at the workshop? Email Robin for the lists we used. Not at the workshop? Look online for lists of sentiment-bearing words. You'll have to run them through the PorterStemmer that comes with NLTK. Each word should be on its own line.
 
 Note: You will probably run into some kind of errors with these scripts. That is the nature of running Python in different environments (and I haven't built in error-handling). If the errors are ignorable, then ignore them. If they won't let the script run at all, see if you can fix it by googling the error message. No luck? Sorry Charlie! I've included .txt files of sample output to see what you should have gotten.
@@ -29,4 +33,6 @@ Interested in learning more about Python-powered text analysis? Make your way th
 ## Data sources
 - `data_novels/` - Project Gutenberg
 - `data_sotu/` - Project Gutenberg (split up with Python); includes congressional addresses that aren't technically State of the Union addresses
-- `data_columns/` - Handful of newspaper/magazine columns scraped from the open web
+
+Try using texts you're interested in! Use standalone .txt files (like novels from Project Gutenberg) or make a folder of .txt files. 
+
