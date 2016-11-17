@@ -1,0 +1,7 @@
+file1.txt
+Positive score	0.84
+Negative score	0.16
+
+file2.txt
+Positive score	0.71
+Negative score	0.29

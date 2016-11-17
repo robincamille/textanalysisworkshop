@@ -1,0 +1,15 @@
+Tokenizing
+Tagging Part Of Speech (POS)...
+Running POS-tagged text through Named Entity chunker...
+
+Most common names:
+Schumer
+Amy
+Louis
+Giamatti
+Night
+Apatow
+Sarah
+Nights
+Lenas
+West
