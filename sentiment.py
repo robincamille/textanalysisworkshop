@@ -1,17 +1,21 @@
 # This script counts up positive and negative words in a
 # text file. Scroll to bottom for the action!
 
+# YOU WILL NEED TO HAVE A POS_LIST.TXT AND NEG_LIST.TXT FILE
+# NOT INCLUDED IN THIS REPO
+# Were you at the workshop? Email Robin for the lists we used.
+
 import string, os
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
 
 # Open up lists of neg / pos words
-filename = open('sentiment/anew-mpqa-pos.txt','r')
+filename = open('pos_list.txt','r')
 positivesraw = filename.readlines()
 filename.close()
 positives = [w[:-1] for w in positivesraw]
 
-filename = open('sentiment/anew-mpqa-neg.txt','r')
+filename = open('neg_list.txt','r')
 negativesraw = filename.readlines()
 filename.close()
 negatives = [w[:-1] for w in negativesraw]

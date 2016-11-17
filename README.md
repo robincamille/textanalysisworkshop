@@ -19,6 +19,8 @@ nltk.download()
 ```
 A window should pop up. It might appear *behind* your current window. In the window, select the line beginning with **book** to download everything used in the book. It might take a while. 
 
+**Not included in this repo**: ```pos_list.txt``` and ```neg_list.txt```, the lists of positive and negative words used in this repository. Were you at the workshop? Email Robin for the lists we used. Not at the workshop? Look online for lists of sentiment-bearing words. You'll have to run them through the PorterStemmer that comes with NLTK. Each word should be on its own line.
+
 Note: You will probably run into some kind of errors with these scripts. That is the nature of running Python in different environments (and I haven't built in error-handling). If the errors are ignorable, then ignore them. If they won't let the script run at all, see if you can fix it by googling the error message. No luck? Sorry Charlie! I've included .txt files of sample output to see what you should have gotten.
 
 ## Further work 
